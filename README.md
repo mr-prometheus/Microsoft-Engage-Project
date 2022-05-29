@@ -11,5 +11,20 @@ Hello Greeting Everyone. Before you run this program in your terminal make sure 
 7. Then in final_verify.py in line number 26 known_face_names add your name respective to the encoding as above.(If there are 2 encodings,
    then there should be 2 names out there).
 8. Now you are ready to go.
+9. To start the program, Run app.py in the command line and go to the local host link generated.
 
-![loginpage](https://user-images.githubusercontent.com/96532917/170866761-eb0e9889-a897-4cb3-a7ce-0a2cdaee1cfa.jpg)
+**Features**:
+•	AI Based Face Recognition
+•	Device Security
+•	AirBoard - Virtual Drawing Board using Hand Gestures
+•	Readifyme - Scroll Pages using computer vision
+•	Gamestation - Play Snake Game using face recognition computer vision technology 
+•	Attendance Board - See who logged into the system and when 
+
+
+**Tech Stack**:
+•	Front End: HTML,CSS, JAVASCRIPT
+•	Backend- Flask
+•	Database – SQLAlchemy
+•	Technologies/libraries used – Numpy, OpeCV, Face_Recognition, Mediapipe, CVZONE, Pyautogui
+
