@@ -11,3 +11,5 @@ Hello Greeting Everyone. Before you run this program in your terminal make sure 
 7. Then in final_verify.py in line number 26 known_face_names add your name respective to the encoding as above.(If there are 2 encodings,
    then there should be 2 names out there).
 8. Now you are ready to go.
+
+![loginpage](https://user-images.githubusercontent.com/96532917/170866761-eb0e9889-a897-4cb3-a7ce-0a2cdaee1cfa.jpg)
