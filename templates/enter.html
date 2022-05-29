@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome</title>
+        <link rel="stylesheet" href="../static/styles3.css" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/39304611cc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class = "welcome">Welcome {{usr}}</h1>
+        <div class = "information">
+            <i id = "info" class="fa-solid fa-paintbrush"><p><b>Airboard</b>- The place where you can draw through hand gestures</p></i>
+            <br>
+            <i id = "info" class = "fa-solid fa-book-open-reader"><p><b>Readify Me</b>- Scroll Pages using gesture control</p></i>
+            <br>
+            <i id = "info" class="fa-solid fa-gamepad"><p><b>GameStation</b>- An Interactive Computer Vision Game</p></i>
+            <br>
+            <i id = "info" class="fa-solid fa-clipboard-user"><p><b>Attendance</b>- See who logged in and when </p></i>
+            <br>
+            
+        
+        </div>
+        <div class= "clickbox">
+        <button class = "bn3637 bn37" onclick="myFunction()">Explore</button>
+        </div>
+        <div class="container">
+            <input id = "demo" type="checkbox" name="checkbox" class="checkbox">
+            <label for="checkbox"></label>
+            <ul class="menu">
+                <form method = "post" action = "/aircanvas">
+                <li class="menu__item">
+                    <a href="{{url_for('aircanvas')}}" class="fa-solid fa-paintbrush"></a>
+                </li>
+            </form>
+
+                <li class="menu__item">
+                    <a href="{{url_for('reader')}}" class="fa-solid fa-book-open-reader"></a>
+                </li>
+                <li class="menu__item">
+                    <a href="{{url_for('game')}}" class="fa-solid fa-gamepad" ></a>
+                </li>
+                <li class="menu__item">
+                    <a href="{{url_for('database')}}" class="fa-solid fa-clipboard-user"></a>
+                </li>
+                
+            </ul>
+        </div>
+        <a href="{{url_for('index')}}" class="btn btn-info btn-lg logout">
+            <span class="glyphicon glyphicon-log-out"></span> Log out
+          </a>
+        <script>
+            function myFunction() {
+              document.getElementById("demo").click();
+            }
+            </script>
+    </body>
+</html>

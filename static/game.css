@@ -1,0 +1,48 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("background-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    }
+    .tcontainer{
+      position: relative;
+    background-color: white;
+    width: 34%;
+    padding: -8px;
+    border-radius: 48%;
+    left: 34%;
+    border: 2px solid purple;
+    }
+  .title{
+    text-align:center;
+    color:rgb(222, 76, 222);
+    font-size: 30px;
+  }
+  img#screen {
+    position: relative;
+    left: 34%;
+    top: 6px;
+    border-radius: 10%;
+    height: 420px;
+    width: 420px;
+    border: 3px solid purple;
+}
+.button{
+    position:relative;
+    background-color:#6901f8; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius : 8px;
+    border:2px solid blue;
+    left:45%;
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/database.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      
+      <div class="hero">
+    </div>
+    <h1 class = "title">Attendance Database</h1>
+      <div class = "data">
+        <table>
+            <tr>
+              <th>Sr No.</th>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Time</th>
+            </tr>
+            {%for item in values%}
+            <tr>
+              <td>{{item._id}}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.date}}</td>
+              <td>{{item.time}}</td>
+            </tr>
+            
+            {%endfor%} 
+          </table>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

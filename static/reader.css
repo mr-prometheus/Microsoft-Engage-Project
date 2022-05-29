@@ -1,0 +1,26 @@
+body {
+  margin:0;
+  padding:0;
+  background-image: url("background-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.title{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:34px;
+}
+img{
+    position:relative;
+    height: 200px;
+  width: 20%;
+  margin-left: 70%;
+  top:-400px;
+  border: 3px solid rgb(6, 170, 140);
+  border-radius: 15%;
+
+}
+.container{
+    margin-bottom:500px;
+
+}

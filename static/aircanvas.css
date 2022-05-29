@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("background-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+img#screen{
+    max-width: 100%;
+    position: relative;
+    left: 26%;
+    top: 47px;
+    border-radius: 10%;
+}
+.title{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:35px;
+}

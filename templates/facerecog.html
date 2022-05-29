@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{url_for('static',filename = '../static/face.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8  offset-lg-2">
+                    <img src="{{ url_for('face_recog') }}" >
+                </div>
+            </div>
+        </div>
+        <form action = "{{ url_for('webcam')}}" method = "post">
+        <a href = "{{url_for('webcam')}}"><button class ="button"type="submit" form="form1" value="Submit" onclick="showDiv()">Verify</button></a>
+        </form>
+
+        <div id = "newpost" class = "loader">
+            
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script>
+            function showDiv() {
+                div = document.getElementById('newpost');
+                div.style.display = "block";
+            }
+        </script>
+    </body>
+</html>
