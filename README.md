@@ -1,5 +1,7 @@
+# INTO THE FUTURE
+-----------------
 Hello Greeting Everyone. Before you run this program in your terminal make sure you go through this document to the end.
-1. pip install all the libraries given in the requirements.txt
+1. Pip install all the libraries given in the requirements.txt
 2. Make sure you installed cmake, dlib before face_Recognition else it will not install. If you are not able to install
    dlib, I have included the file in this repository. Go to the directory command line then pip install "dlib-19.22.99-cp310-cp310-win_amd64.whl". 
    You are good to go.
