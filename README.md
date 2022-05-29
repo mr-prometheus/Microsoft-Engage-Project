@@ -30,3 +30,12 @@ Hello Greeting Everyone. Before you run this program in your terminal make sure 
 - Database – SQLAlchemy
 - Technologies/libraries used – Numpy, OpeCV, Face_Recognition, Mediapipe, CVZONE, Pyautogui
 
+
+**Respective files and their functionalities:**
+1.	App.py – The main backend file using flask where all the routes are present and their respective functionalities.
+2.	Final_verify.py – After the login page this verification comes into play and look for the face encodings of the respective user in the database for face verification.
+3.	Air_frames_file.py – This is the program for airboard which uses opencv and mediapipe for hand encodings which helps you draw on the screen.
+4.	Reading.py – It includes the program for readify me which uses opencv, mediapipe and pyautogui for the functioning. 
+5.	Snake_game.py – This is the game for computer vision snake game which uses cvzone, mediapipe, and opencv for the functionality. 
+
+
