@@ -14,17 +14,17 @@ Hello Greeting Everyone. Before you run this program in your terminal make sure 
 9. To start the program, Run app.py in the command line and go to the local host link generated.
 
 **Features**:
--AI Based Face Recognition
--Device Security
--AirBoard - Virtual Drawing Board using Hand Gestures
--Readifyme - Scroll Pages using computer vision
--Gamestation - Play Snake Game using face recognition computer vision technology 
--Attendance Board - See who logged into the system and when 
+- AI Based Face Recognition
+- Device Security
+- AirBoard - Virtual Drawing Board using Hand Gestures
+- Readifyme - Scroll Pages using computer vision
+- Gamestation - Play Snake Game using face recognition computer vision technology 
+- Attendance Board - See who logged into the system and when 
 
 
 **Tech Stack**:
--Front End: HTML,CSS, JAVASCRIPT
--Backend- Flask
--Database – SQLAlchemy
--Technologies/libraries used – Numpy, OpeCV, Face_Recognition, Mediapipe, CVZONE, Pyautogui
+- Front End: HTML,CSS, JAVASCRIPT
+- Backend- Flask
+- Database – SQLAlchemy
+- Technologies/libraries used – Numpy, OpeCV, Face_Recognition, Mediapipe, CVZONE, Pyautogui
 
